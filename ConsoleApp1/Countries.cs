@@ -18,5 +18,11 @@ namespace ConsoleApp1
             vote = vote.ToLower(); //converts the user input to lower case
             return vote; //returns the vote so it can be stored in main
         }
+
+        public Countries(string name, float percent)
+        {
+            countryName = name;
+            percentage = percent;
+        }
     }
 }
